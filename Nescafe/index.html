@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nescafe</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section class="mainView">
+		<div class="circle"></div>
+		<!-- HEADER DE LA PÁGINA -->
+		<header>
+			<a href="#" class="logo"><img src="images/logo.jpg"></a>
+			<div class="toggle" onclick="toggleMenu();"></div>
+			<ul class="navigation">
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Menu</a></li>
+				<li><a href="#hola">Conoce más</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</header>
+		<!-- PRESENTACIÓN PRINCIPAL -->
+		<div class="content">
+			<div class="textBox">
+				<h2>Descubre nuestra nueva cafetera <span>Dolce Gusto</span></h2>
+				<p>Disfruta del delicioso aroma e inconfundible sabor de NESCAFÉ con la nueva Dolce Gusto </p>
+				<a href="#presentation">Conoce más</a>
+			</div>
+			<div class="imgBox">
+				<img src="images/page/img1.png" class="cafDolce">
+			</div>
+		</div>
+		<ul class="sci">
+			<li><a href="#"><img src="images/facebook.png"></a></li>
+			<li><a href="#"><img src="images/twitter.png"></a></li>
+			<li><a href="#"><img src="images/instagram.png"></a></li>
+		</ul>
+	</section>
+
+	<!-- PRESENTACIÓN DE INFORMACIÓN DE LA CAFETERA -->
+	<section class="presentation" id="presentation">
+		<div class="informationCafe">
+			<div class="informationText">
+				<h2>Nueva cafetera Dolce Gusto</h2>	
+				<p>La vida avanza y nuestra nueva generación de cafeteras Dolce Gusto avanza con ella, siendo totalmente automática, diseñadas para acompañarte con un café único en todas tus mañanas con solo presionar un botón</p>
+			</div>
+			
+			<video class="informationVideo" width="640" height="480" autoplay muted loop>
+			  <source src="images/grid/video.mp4" type="video/mp4" />
+			  Su navegador no soporta contenido multimedia.
+			</video>	
+		</div>	
+		
+		<h1>comparativa</h1>
+		<div class="tablacomparacion">
+    		<div class="productoComparacion">
+		        <h3>Piccolo XS</h3>
+		        <img src="images/page/comparativa1.webp" width="50">
+		        <div>$ 1400</div>
+		        <div>Automática</div>
+		        <div>Funcion Caliente</div>
+		        <div>Capacidad de agua XXL</div>
+		        <button class="butonComprar">Comprar</button>
+		    </div>
+		    <div class="productoComparacion">
+		        <h2>Dolce Gusto</h2>
+		        <img src="images/page/img1.png" width="100">
+		        <div>$ 1999</div>
+		        <div>Multi bebida</div>
+		        <div>Cafetera automática</div>
+		        <div>Función caliente y frío</div>
+		        <div>Capacidad de Agua XXL</div>
+		        <div>Ahorro de energía</div>
+		        <button class="butonComprar">Comprar</button>
+		    </div>
+		    <div class="productoComparacion">
+		        <h3>Piccolo XS</h3>
+		        <img src="images/page/comparativa2.webp" width="60">
+		        <div>$ 2490</div>
+		        <div>Multi bebida</div>
+		        <div>Cafetera automática</div>
+		        <div>Función caliente y frío</div>
+		        <div>Capacidad de Agua XXL</div>
+		        <div>Ahorro de energía</div>
+		        <button class="butonComprar">Comprar</button>
+		    </div>
+		</div>
+	</section>
+
+	<!-- GALERÍA DE FOTOS -->
+	<section id="culturaCafe">
+		<div class="row">
+			<h1>Cultura del cafe</h1>
+			<p>Nuestro café esta ansioso por salir de la taza y llegar a tu paladar. Siguenos en redes sociales y descubre como vivimos nuestra pasión por el café</p>
+			<div class="column">
+			 	<img src="images/grid/instagrid1.jpg">
+			    <img src="images/grid/instagrid2.jpg">
+			</div>
+			<div class="column">
+			    <img src="images/grid/instagrid4.jpg">
+			    <img src="images/grid/instagrid5.jpg">
+			</div>
+			<div class="column">
+			    <img src="images/grid/instagrid3.jpg">
+			    <img src="images/grid/instagrid6.jpg"> 
+			</div>
+			<div class="column">
+			    <img src="images/grid/instagrid7.jpg">
+			    <img src="images/grid/instagrid8.jpg"> 
+			</div>
+		</div>
+	</section>
+
+	<!-- SECCIÓN DE REGISTRO AL BOLETIN DE NOTICIAS DE NESCAFÉ -->
+	<section id="registro">
+		<div class="container">
+			<div class="contact-box">
+				<div class="left">
+					<h2>Recibe noticias</h2>
+					<p>Regístrate y únete al cafeísmo para conocer más contenido exclusivo de nuestros productos</p>
+				</div>
+				<div class="right">
+					<h2>Regístrate</h2>
+					<input type="text" class="field" placeholder="Nombre">
+					<input type="text" class="field" placeholder="Correo Electrónico">
+					<input type="text" class="field" placeholder="Número de telefóno ">
+					<button class="btn">Registrarme</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- FOOTER DE LA PÁGINA -->
+	<footer>
+	   <div class="content">
+	       	<a href="#" class="logo"><img src="images/logo.jpg"></a>
+	       	<div><a href="#">Contactanos</a></div>
+	       	<div><a href="#">Aviso de privacidad</a></div>
+	       	<div><a href="#">Terminos y condiciones</a></div>
+	      	<div><a href="#">Mapa del sitio</a></div>
+	    	<p>Copyright © Derechos de autor Nestlé 2020</p>
+	   </div>    
+	</footer>
+
+	<!-- MENU DE NAVEGACIÓN MOBIL -->
+	<script type="text/javascript">
+		function toggleMenu(){
+			var menuToggle = document.querySelector('.toggle');
+			var navigation = document.querySelector('.navigation')
+			menuToggle.classList.toggle('active')
+			navigation.classList.toggle('active')
+		}
+	</script>
+</body>
+</html>
